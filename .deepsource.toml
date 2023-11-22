@@ -9,3 +9,11 @@ name = "python"
   [[analyzers]]
 name = "test-coverage"
 enabled = true
+
+# .deepsource.toml
+
+[analysis]
+  [analysis.python]
+    [analysis.python.bandit]
+      enabled = true  # Enable Bandit security analysis
+
